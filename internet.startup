@@ -1,0 +1,10 @@
+
+ifconfig eth0 143.102.212.100 netmask 255.255.255.0 
+route add default gw 143.102.212.109 dev eth0
+
+
+sed -i 's/127.0.0.1/143.102.212.100/g' /etc/mysql/mariadb.conf.d/50-server.cnf
+
+/etc/init.d/mysql start
+
+source /scripts/populate_db.sh

@@ -1,0 +1,4 @@
+#configuracao do roteador do provedor
+ifconfig eth0 143.102.212.109 netmask 255.255.255.0 up
+ifconfig eth1 202.135.187.129 netmask 255.255.255.192 up
+route add -net 10.0.0.0/8 gw 202.135.187.131 dev eth1
