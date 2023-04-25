@@ -138,7 +138,7 @@ Em segundo lugar, mesmo sem saber a senha, é possível que o atacante "bombarde
 
 ## Referências
 
-- *Kathará*, [https://github.com/KatharaFramework/Kathara/wiki][3]
+- *Kathará*, [https://github.com/KatharaFramework/Kathara/wiki]
 
   [1]: media/LampServer.png
 
